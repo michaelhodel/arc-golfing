@@ -1,0 +1,1 @@
+def p(g):d=sum(g,[]).count(0);n=9-d;k=3*d;return sum([[[r*n+[0]*3*(d**2-n)for r in g][i][k*j:k*(j+1)]for i in(0,1,2)]for j in range(d)],[])

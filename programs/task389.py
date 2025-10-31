@@ -1,0 +1,1 @@
+p=lambda g:[[(e==5)*[*{*sum(g,[])}-{5}][0]for e in r]for r in g]

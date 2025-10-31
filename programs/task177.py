@@ -1,0 +1,1 @@
+p=lambda g:[[*filter(int,r[::-1])]for r in g if max(r)]

@@ -1,0 +1,1 @@
+def p(g):R=range;G,H=[(2*b+a-1,2*d+a-1)for a in(3,2)for b in R(8)for d in R(8)if all(all(r[d:d+a])for r in g[b:b+a])][0];[(d:=2*a-G,e:=2*b-H)and exec('d,e=-e,d;g[G+d>>1][H+e>>1]=k;'*3)for a in R(10)for b in R(10)if(k:=g[a][b])];return g

@@ -1,0 +1,1 @@
+p=lambda g,n=enumerate:[[e==5 and max(g[0][X]for X,l in n(r)if{5}in({*r[X:j]},{*r[j:X+1]}))or e for j,e in n(r)]for i,r in n(g)]

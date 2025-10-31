@@ -1,0 +1,1 @@
+def p(g):I,J=divmod(sum(g,[]).index(4),11);n=enumerate;return[[(e==5)*e or(g[i%4+I//4*4][j%4+J//4*4]*(i//4==I%4)*(j//4==J%4))for j,e in n(r)]for i,r in n(g)]

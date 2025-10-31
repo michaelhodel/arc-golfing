@@ -1,0 +1,1 @@
+def p(g,n=enumerate):(i,*_,j),(x,*_,y)=map(sorted,zip(*{(i,j)for i,r in n(g)for j,e in n(r)if e}));return[[g[i][x]*(e>0)for e in r[x+1:y]]for r in g[i+1:j]]

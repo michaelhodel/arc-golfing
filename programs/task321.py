@@ -1,0 +1,1 @@
+p=lambda g:[[r[j]or r[j+5]|r[j+10]for j in range(4)]for r in g]

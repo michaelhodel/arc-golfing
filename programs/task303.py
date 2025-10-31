@@ -1,0 +1,1 @@
+p=lambda g,f=lambda x:[[[2,e][bool({*r}-{0,2})]for e in r]for r in zip(*x)]:f(f(g))

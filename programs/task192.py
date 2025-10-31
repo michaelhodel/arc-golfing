@@ -1,0 +1,1 @@
+def p(g):s=sum(g,[]);a,b,_=sorted({*s},key=s.count);f=lambda x:[r[1:-1]for r in eval(str([[0,*r,0]for r in zip(*x)]).replace(f'0, {b}, 0','0,0,0'))];return f(f(f(f(eval(str(g).replace(*(f'{a}{b}')))))))

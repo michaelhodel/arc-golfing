@@ -1,0 +1,1 @@
+def p(g):n=range(len(g));return[[max([g[I][J]for I in n for J in n if abs(i-I)==abs(j-J)])for j in n]for i in n]

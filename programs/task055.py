@@ -1,0 +1,1 @@
+p=lambda g,n=enumerate:[[e+[[0,2,0],[4,6,3],[0,1,0]][[*zip(*g)][0][:i].count(8)][g[0][:j].count(8)]*(e<1)for j,e in n(r)]for i,r in n(g)]

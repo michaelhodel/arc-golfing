@@ -1,0 +1,1 @@
+p=lambda g,R=range(16):[[1+(l+J)%max(g[0])for J in R]for l in R]

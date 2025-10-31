@@ -1,0 +1,1 @@
+def p(g):A=enumerate;c,E=map(sum,zip(*((i,j)for i,r in A(g)for j,W in A(r)if W)));a=c//2;b=E//2;g[a][b-1:b+2]=3,3,3;g[a-1][b]=g[a+1][b]=3;return g

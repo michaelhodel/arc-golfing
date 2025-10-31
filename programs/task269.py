@@ -1,0 +1,1 @@
+p=lambda g:(f:=lambda x:sum([[e]*(len({*str(g)})-5)for e in x],[]))(map(f,g))

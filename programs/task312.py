@@ -1,0 +1,1 @@
+p=lambda g:[[r[0]*(e>0)for e in r]for r in g]

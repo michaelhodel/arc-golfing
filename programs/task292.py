@@ -1,0 +1,1 @@
+p=lambda g:[[e+e/2*(j%3<1)for j,e in enumerate(r)]for r in g]

@@ -1,0 +1,1 @@
+p=lambda g,N=range:[[max(g[k-1+i][l-1+j]for k in N(11)for l in N(11)if g[k][l]==5)for j in N(3)]for i in N(3)] 

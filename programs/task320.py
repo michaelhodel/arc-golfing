@@ -1,0 +1,1 @@
+p=lambda g:[*zip(*[[e+3*e*(r.count(r[-1])/2>=len(r)-j)for j,e in enumerate(r)]for r in zip(*g)])]

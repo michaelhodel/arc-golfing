@@ -1,0 +1,1 @@
+p=lambda g:[[[e,4][min(e*14,j)%2]for j,e in enumerate(r)]for r in g]

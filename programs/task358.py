@@ -1,0 +1,1 @@
+p=lambda g,f=lambda x:[[1<(k:=len(r)-r.count(0))and max(r[j%k::k])or e for j,e in enumerate(r)]for r in zip(*x)]:f(f(g))

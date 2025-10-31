@@ -1,0 +1,1 @@
+p=lambda g,r=range:max([[r[j:j+w]for r in g[i:i+h]]for h in r(3,19)for w in r(3,19)for i in r(21-h)for j in r(21-w)],key=lambda x:((s:=sum(x,[]).count)(2)*99+len(x)*len(x[0]))*(s(0)<1))

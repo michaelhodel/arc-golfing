@@ -1,0 +1,1 @@
+p=lambda g:[[(c:=[g[i][i]for i in(2,1,0)])[(c.index(e)+1)%3]for e in r]for r in g]

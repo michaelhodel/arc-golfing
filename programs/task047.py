@@ -1,0 +1,1 @@
+p=lambda g,R=range(9):[[[max(x:=g[i]+[*[*zip(*g)][j]]),2][sum(x)==15]for j in R]for i in R]

@@ -1,0 +1,1 @@
+def p(g):d=[len({*r})for r in g].index(1)+1;return[r[::-d]for r in g[::d]]

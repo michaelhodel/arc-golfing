@@ -1,0 +1,1 @@
+p=lambda g:[[(a:=[*{*sum(g,[])}-{0}])[e==a[0]]for e in r if e]for r in g if max(r)]

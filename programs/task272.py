@@ -1,0 +1,1 @@
+p=lambda g,n=enumerate:[[(e-(e>1)*((sum(r[max(0,j-1):j+2]+[*[*zip(*g)][j][max(0,i-1):i+2]])<5)))for j,e in n(r)]for i,r in n(g)]

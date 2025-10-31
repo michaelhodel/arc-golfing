@@ -1,0 +1,1 @@
+p=lambda g:[*g[:1]*3,g[3],[5-4*e for e in g[2]]]

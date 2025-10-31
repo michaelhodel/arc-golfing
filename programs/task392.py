@@ -1,0 +1,1 @@
+p=lambda g,r=range(10):[[(a:=max(sum(g,[])),5,5)[min(max(abs(f-b),abs(m-s))for b in r for s in r if g[b][s])%(3-(f'{a}, 0, {a}'in str(g)))]for m in r]for f in r]

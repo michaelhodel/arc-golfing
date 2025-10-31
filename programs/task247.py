@@ -1,0 +1,1 @@
+p=lambda g:(C:=(f:=(s:=sum(g,[])).count)(max({*s}-{0},key=f)))*[sorted({c for c in s if f(c)==C},key=lambda c:s.index(c)%10)]

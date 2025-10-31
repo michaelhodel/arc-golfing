@@ -1,0 +1,1 @@
+p=lambda g,R=range(9):[[0<g[i//3*3+1][j//3*3+1]for j in R]for i in R]

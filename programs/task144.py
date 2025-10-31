@@ -1,0 +1,1 @@
+p=lambda g:[[3*(d==e)for d,e in zip(*x)]for x in zip(g,g[5:])]

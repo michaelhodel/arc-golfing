@@ -1,0 +1,1 @@
+p=lambda g,f=lambda c,g:[r for*r,in zip(*g)if c in r]:[[max({*(s:=sum(g,[]))}-{m:=min(s,key=s.count)},key=lambda c:sum(f(c,f(c,g)),[]).count(m))]]

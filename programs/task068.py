@@ -1,0 +1,1 @@
+def p(g):s=sum(g,[]);c=min(s,key=s.count);I,J=divmod(s.index(c),10);R=range(10);return[[([2*(max(abs(i-I),abs(j-J))<2),c][(i,j)==(I,J)])for j in R]for i in R]

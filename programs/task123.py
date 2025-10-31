@@ -1,0 +1,1 @@
+p=lambda g,R=range(10):[[[*filter(int,g[0]*3)][max(i,j)]for j in R]for i in R]

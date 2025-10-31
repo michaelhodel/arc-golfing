@@ -1,0 +1,1 @@
+p=lambda g:[[8<sum(e for r in g[i:i+3]for e in r[j:j+3])for j in(0,4,8)]for i in(0,4,8)]

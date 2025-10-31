@@ -1,0 +1,1 @@
+p=lambda g:max(map(lambda c:(f:=lambda x:[r for r in zip(*x)if c in r])(f(g)),sum(g,[])),key=lambda x:x==[r[::-1]for r in x])

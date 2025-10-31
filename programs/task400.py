@@ -1,0 +1,1 @@
+p=lambda g,R=range(24):[[g[23-i][23-j]for j in R if g[i][j]==1]for i in R if 1 in g[i]]

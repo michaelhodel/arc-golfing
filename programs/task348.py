@@ -1,0 +1,1 @@
+p=lambda g,n=enumerate:[[(7+((J:=g[0].index(7))-j)%2)*(i<(N:=sum(sum(g,[]))/7))*(abs(J-j)<abs(N-i))for j,e in n(r)]for i,r in n(g)]

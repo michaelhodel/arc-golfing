@@ -1,0 +1,1 @@
+p=lambda g,f=lambda x:[[e+3*((C:=r.count)(2)+C(8)<3)*(e<1)for e in r]for r in zip(*x)]:f(f(g))

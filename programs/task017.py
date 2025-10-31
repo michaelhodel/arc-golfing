@@ -1,0 +1,1 @@
+def p(g):y=range;r=max(g,key=min);P=min(e for e in y(4,10)if r[:e]==r[e:e*2]);return[[max(max(r[j%P::P])for r in g[i%P::P])for j in y(21)]for i in y(21)]

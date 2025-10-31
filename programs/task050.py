@@ -1,0 +1,1 @@
+p=lambda g,f=lambda x:[[e+3*(8 in r[:j])*(8 in r[j+1:])for j,e in enumerate(r)]for r in zip(*x)]:f(f(g))

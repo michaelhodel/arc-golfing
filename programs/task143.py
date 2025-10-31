@@ -1,0 +1,1 @@
+def p(g):o=[r[:3]for r in g[:3]];s=sum(o,[]);I,J=divmod(s.index(max(s)),3);n=enumerate;return[eval(str(g).replace(*(f'{g[x][y]}5')))for x,r in n(g)for y,E in n(r)if((x!=I)|(y!=J))*E*({(i-x,j-y)for i,r in n(g)for j,e in n(r)if e==E}=={(i-I,j-J)for i,r in n(o)for j,e in n(r)if e})][0]

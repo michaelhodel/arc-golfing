@@ -1,0 +1,1 @@
+def p(g):X,Y=divmod(sum(g,[]).index(8),13);g=[r[Y-1:Y+2]for r in g[X-1:X+2]];g[1][1]=max(g[0]);return g

@@ -1,0 +1,1 @@
+p=lambda g,f=lambda x:[sum([2*[e]for e in r],[])for*r,in zip(*x)if max(r)]:f(f(g))

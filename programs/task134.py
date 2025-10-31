@@ -1,0 +1,1 @@
+def p(g):n,m=sorted({*sum(g,[])}-{0},key=lambda c:str(g).count(f'{c}, '*2));F=lambda x:[r for r in zip(*x)if m in r];h=F(F(g));d=len(h)//3;return[[n*(e==m)for e in r[::d]]for r in h[::d]]

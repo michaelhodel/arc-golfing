@@ -1,0 +1,1 @@
+p=lambda g,n=range(21):[[[g[0][:2][i!=j],(X:=g[i][j]|g[j][i])][X>0]for j in n]for i in n]

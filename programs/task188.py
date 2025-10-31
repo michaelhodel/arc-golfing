@@ -1,0 +1,1 @@
+p=lambda g:[g[:len(g)//2],Y:=[r[:(w:=len(r)//2)]for r in g]][Y==[r[w:]for r in g]]

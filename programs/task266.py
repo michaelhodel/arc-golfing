@@ -1,0 +1,1 @@
+p=lambda g:[[{(-1,-1):3,(1,1):7,(-1,1):6,(1,-1):8}.get((a-(s:=sum(g,[]).index(2))//5,b-s%5),0)for b in range(5)]for a in(0,1,2)]

@@ -1,0 +1,1 @@
+p=lambda g:(K:=lambda x,y:[x,[r for*r,in zip(*x)]][y-all(map(max,g))])(len(S:={*(s:=sum(K(g,0),[]))}-{0,5})*[sorted(S,key=s.index)],1)

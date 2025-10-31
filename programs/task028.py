@@ -1,0 +1,1 @@
+p=lambda g,R=range(10):[[(r in(0,2,7,9)or c%9<1)*[*filter(int,sum(g,[]))][r>4]for c in R]for r in R]

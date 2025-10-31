@@ -1,0 +1,1 @@
+def p(g):s=sum(g,[]);F=s.index;I=F(8);X=sorted({*s}-{0,8},key=lambda x:(F(x)>I)*2+(F(x)%10>I%10));return[([0]*I+X[:2]+[0]*8+X[2:]+[0]*99)[i*10:(i+1)*10]for i in range(10)]

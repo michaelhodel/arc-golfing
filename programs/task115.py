@@ -1,0 +1,1 @@
+p=lambda g:[(h:=[[*{}.fromkeys(sum(g,[]))]]),[*zip(*h)]][len({*g[0]})<2]

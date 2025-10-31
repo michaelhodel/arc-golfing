@@ -1,0 +1,1 @@
+p=lambda g:(f:=lambda g:[*zip(*[r for r,e in zip(g,g[1:]+g)if(e!=r)*max(r)])])(f(g))

@@ -1,0 +1,1 @@
+p=lambda g,n=enumerate,F=lambda x:sum(4<r[0]for r in x):[[[1,2,3,e][[F(g[:i+1])+F((T:=[*zip(*g)])[:j+1])<1,F(g[:i])==F(g[i+1:])and F(T[:j])==F(T[j+1:]),F(g)-1<F(g[:i])and F(T[:j])>F(T)-1,1].index(1)]for j,e in n(r)]for i,r in n(g)]

@@ -1,0 +1,1 @@
+p=lambda g,N=enumerate:[[e+9*(2 in r[:j])*(2 in r[j:])*(i%9>e<1)for j,e in N(r)]for i,r in N(g)]

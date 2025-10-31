@@ -1,0 +1,1 @@
+p=lambda g,n=enumerate:[[e/8*g[i//(D:=(d:=len(g)-1)//2-1)*d][j//D*d]for j,e in n(r[2:-2])]for i,r in n(g[2:-2])]

@@ -1,0 +1,1 @@
+p=lambda g:min(g[:3],g[3:6],g[6:],key=lambda x:x==[*map(list,zip(*x))])

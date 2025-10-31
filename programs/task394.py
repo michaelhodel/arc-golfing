@@ -1,0 +1,1 @@
+p=lambda g,n=enumerate:[[g[i][j+[-D,D][A]]if(A:=j+(D:=3-(len(g)<7))+sum(0 in r for r in g)<=len(g))else g[i+[D,-D][i-D>=0]][j]for j,e in n(r)if e<1]for i,r in n(g)if 0 in r]

@@ -1,0 +1,1 @@
+def p(g):d=len(g)//2+1;R=range(d-1);return[[min(X:=g[a][b::d]+g[a+d][b::d],key=X.count)for b in R]for a in R]

@@ -1,0 +1,1 @@
+def p(g):(i,j),(x,y)=[divmod(sum(g,[]).index(c),len(g[0]))for c in(3,4)];g[i][j]=0;g[i+(x>i)-(x<i)][j+(y>j)-(y<j)]=3;return g

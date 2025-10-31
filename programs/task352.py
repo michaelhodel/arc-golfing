@@ -1,0 +1,1 @@
+p=lambda g,k=lambda x:[*zip(*eval(str(x).replace('0, 2','1,2').replace('2, 0','2,1')))]:k(str(k(g)).replace('0, 1','1,1').replace('1, 0','1,1'))

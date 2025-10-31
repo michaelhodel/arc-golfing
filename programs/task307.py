@@ -1,0 +1,1 @@
+p=lambda g:sum([2*[sum([[e,e]for e in r],[])]for r in g],[])

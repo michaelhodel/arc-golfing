@@ -1,0 +1,1 @@
+def p(g):w=range(len(g[0]));d=[[8-7*(i==j)for j in w]for i in w];return((d[:-1]+d[::-1])[:-1]*9)[9::-1]

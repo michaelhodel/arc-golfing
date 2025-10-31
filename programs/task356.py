@@ -1,0 +1,1 @@
+p=lambda g,M=max,n=enumerate:[[(M(r[:j+1])*M(r[j:])|M((h:=[*zip(*g)])[j][:i+1])*M(h[j][i:]))/8 for j,e in n(r)]for i,r in n(g)]

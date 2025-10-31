@@ -1,0 +1,1 @@
+def p(g):W=lambda x:[[r for*r,in zip(*x)],x][sum(2>len({*r})for r in g)<1];h=W(g);n=enumerate;return W([*map(lambda r:[(1-any(s<=j<=e for s,e in(x for j,e in n(r)if e<1 for x in[(min(r.index(c)for r in h if c in r),max(len(r)-1-r[::-1].index(c)for r in h if c in r))for c in{*sum(h,[])}-{0}]if x[0]<=j<=x[1])))*e for j,e in n(r)],h)])

@@ -1,0 +1,1 @@
+p=lambda g,F=filter,R=range(9):[[(h:=[*F(max,zip(*F(max,zip(*g))))])[i//3][j//3]&h[i%3][j%3]for j in R]for i in R]

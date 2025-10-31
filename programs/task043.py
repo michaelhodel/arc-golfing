@@ -1,0 +1,1 @@
+p=lambda g:[[e+g[0][j]*r[-1]//9 for j,e in enumerate(r)]for r in g]

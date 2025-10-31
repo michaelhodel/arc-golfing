@@ -1,0 +1,1 @@
+p=lambda g,e=enumerate:[[(g[9][9],a:=g[0][0])[(j,i)[a==g[0][9]]<5]*(v>0)for j,v in e(r)]for i,r in e(g)]

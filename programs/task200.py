@@ -1,0 +1,1 @@
+p=lambda g,n=enumerate:[[(b>=(j:=(X:=g[9]).index(max(X))))*((b-j)%2<1 and X[j]or(i==9*((b-j-1)%4>0))*5)for b,e in n(r)]for i,r in n(g)]

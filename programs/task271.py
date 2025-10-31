@@ -1,0 +1,1 @@
+p=lambda g,R=range(7):min([[r[j:j+3]for r in g[i:i+3]]for i in R for j in R],key=lambda e:sum(X:=sum(e,[]))-(min(X)>0)*99)

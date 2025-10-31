@@ -1,0 +1,1 @@
+p=lambda g:[[r[15-i]for i in range(16)if r[i]<1]for r in g if 0 in r]

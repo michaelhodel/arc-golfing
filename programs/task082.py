@@ -1,0 +1,1 @@
+p=lambda g:[R:=g[0],[*map(max,zip(R[1:]+[0],[0]+R))]]*3

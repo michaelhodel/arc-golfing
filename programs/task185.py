@@ -1,0 +1,1 @@
+def p(g):f=lambda x:[r for r in zip(*x)if{*r}&{*sum(g,[])}-{*g[0]}];h=f(f(g));d=0,1,2;return[[(C:=max(x:=h[i][j:j+2]+h[i+1][j:j+2],key=(F:=x.count)))*(F(C)==4)*(C!=max(g[0]))for j in d]for i in d]

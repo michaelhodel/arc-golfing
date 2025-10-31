@@ -1,0 +1,1 @@
+p=lambda g:[(g:=[*zip(*eval(str(g).replace('2, 3','0,8'))[::-1])])for _ in[0]*4][3]

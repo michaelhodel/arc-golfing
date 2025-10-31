@@ -1,0 +1,1 @@
+p=lambda g:[[int("0564312098"[e])for e in r]for r in g]

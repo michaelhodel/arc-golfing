@@ -1,0 +1,1 @@
+p=lambda g:[(g:=[*map(list,zip(*g[sum(g,[]).index(5)//len(g[0])+X%2-1:][::-1]))])for X in range(4)][3]

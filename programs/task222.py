@@ -1,0 +1,1 @@
+p=lambda g:(f:=lambda x:[[[0]*16,r][2*f"{max({*(s:=sum(g,[]))}-{0},key=lambda c:(X:=str(s).count)(f'{c}, '*2)+X(f'{c}, '*3))}, "in str(r)]for r in zip(*x)])(f(g))

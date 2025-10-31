@@ -1,0 +1,1 @@
+p=lambda g,k=7,R=range(10):-k*g or p([*zip(*[[(a:=max({*sum(g,())}-{5})if(y<1,0,0,5)==g[y][x:x+2]+g[y-1][x:x+2]else(x*y and g[y-1][x-1])|(x<9>y and g[y+1][x+1])|g[y][x])*(a!=5-9*k)for x in R]for y in R])],k-1)

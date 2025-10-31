@@ -1,0 +1,1 @@
+p=lambda g:[[min(s:=sum(g,[]),key=lambda c:str(s).count(f'{c}, '*3))]]

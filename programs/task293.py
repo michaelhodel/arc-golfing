@@ -1,0 +1,1 @@
+p=lambda g:[(k:=[*map((f:=lambda a:a[0]and a[:1]*len(a)or a),g)]),[*zip(*map(f,zip(*g)))]][k==g]

@@ -1,0 +1,1 @@
+p=lambda g,f=lambda x:eval(str(x).replace('1, 0, 1','1,2,1')):f(f(g))

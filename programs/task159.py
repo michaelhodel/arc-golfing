@@ -1,0 +1,1 @@
+def p(g):d=str(sum(g,[])).count('2')//4;f=lambda g:[r for r in zip(*g)if{*r}-{0,2}];h=f(f(g));F=d//3;P=[[2]*(d+1)];R=range(d-1);return P+[[2]+[h[i//F][j//F]for j in R]+[2]for i in R]+P

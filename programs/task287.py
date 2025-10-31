@@ -1,0 +1,1 @@
+p=lambda g:[[[e,x][x!=4]for e,x in zip(r,k[::-1])]for r,k in zip(g,g[::-1])]

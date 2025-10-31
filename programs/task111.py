@@ -1,0 +1,1 @@
+def p(g):a,b=divmod(sum(g,[]).index(5),10);return[r[b-1:b+2]for r in g[a+1:a+4]]

@@ -1,0 +1,1 @@
+p=lambda g:[*zip(*[[e/5*((r==(X:=sorted(filter(max,zip(*g)),key=sum))[-1])+(r==X[0])*2)for e in r]for r in zip(*g)])]

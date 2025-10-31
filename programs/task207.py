@@ -1,0 +1,1 @@
+p=lambda g:[[min(X:=(g[a][b::3]+g[a+3][b::3]),key=X.count)for b in(0,1)]for a in(0,1)]

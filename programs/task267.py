@@ -1,0 +1,1 @@
+p=lambda g:[[(c:=[g[-1][0],0])[e in c]for e in r]for r in g]

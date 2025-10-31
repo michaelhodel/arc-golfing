@@ -1,0 +1,1 @@
+p=lambda g,n=enumerate:[(g:=[*zip(*[[e+8*(9>i>0<j<9 and all(max(r[:j])*max(r[j:])*(g[i][j]<1)for r in g[i-1:i+2]))for j,e in n(r)]for i,r in n(g)])])for _ in'  '][1]

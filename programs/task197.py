@@ -1,0 +1,1 @@
+p=lambda g:[[[max({*r}-{r[0]}|{0}),r[0]][b==g[1][0]]for b in g[1]]for r in g]

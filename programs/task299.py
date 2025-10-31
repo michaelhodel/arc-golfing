@@ -1,0 +1,1 @@
+p=lambda g:[[[0,8,2,4][g[0][b]%7+2*(2 in a)]for b in range(6)]for a in g]

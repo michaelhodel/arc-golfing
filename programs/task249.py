@@ -1,0 +1,1 @@
+p=lambda g:[E*2 for E in g]

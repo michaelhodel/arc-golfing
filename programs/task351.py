@@ -1,0 +1,1 @@
+p=lambda g,R=range(16):[[g[15-i][15-j]for j in R if g[i][j]==3]for i in R if 3 in g[i]]

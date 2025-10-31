@@ -1,0 +1,1 @@
+p=lambda g,A=range(4):[[g[x][y+4]or g[x+4][y]or g[x+4][y+4]or g[x][y]for y in A]for x in A]

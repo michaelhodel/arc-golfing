@@ -1,0 +1,1 @@
+p=lambda g,E=enumerate,S=sum:[[v or min(((Y:=abs(y-i))+(X:=abs(x-j)),3*v==S(S(s[j-1:j+2])for s in g[i-1:i+2])and(Y==X)*S({*S(g,[-v])}))for i,r in E(g)for j,v in E(r)if v)[1]for x,v in E(r)]for y,r in E(g)] 

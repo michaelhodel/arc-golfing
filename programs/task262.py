@@ -1,0 +1,1 @@
+p=lambda g:[3*[[2,4,3][r.index(5)]]for r in g]

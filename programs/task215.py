@@ -1,0 +1,1 @@
+p=lambda g:[max(g[i%3::3],key=sum)for i in range(len(g))]

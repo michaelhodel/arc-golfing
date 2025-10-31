@@ -1,0 +1,1 @@
+p=lambda g,n=enumerate:[[[5,g[i//4*4+1][j//4*4+1]+5][e<5]for j,e in n(r)]for i,r in n(g)]

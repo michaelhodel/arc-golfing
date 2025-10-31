@@ -1,0 +1,1 @@
+p=lambda g:[[3*(i!=j)for i,j in zip(*x)]for x in zip(g,g[7:])]

@@ -1,0 +1,1 @@
+p=lambda g:[*zip(*[[x/5*(sorted(zip(*g))[::-1].index(r)+1)for x in r]for r in zip(*g)])]

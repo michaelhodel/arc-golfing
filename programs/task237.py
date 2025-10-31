@@ -1,0 +1,1 @@
+p=lambda g,F=0:[[(F:=[F,E:=max(r)][E>0])*((F in r[:j+1])|(j>len(r)-2))for j in range(len(r))]for r in g]

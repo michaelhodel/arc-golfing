@@ -1,0 +1,1 @@
+p=lambda g:(F:=lambda x:[[*zip(*x)],x][5 in g[0]])([[5*(r[:(x:=r.index(5))].count(0)<=i<14-r[x+r.count(5):].count(0))for i in range(14)]for r in F(g)])

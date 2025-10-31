@@ -1,0 +1,1 @@
+p=lambda g:[(g:=[[e+(e<1)*8*(5 in r[j+1:])*(((X:=r.count(5))==2)*(5 in r[:j])+(X<2)*(5 in r[4:]))for j,e in enumerate(r)]for r in zip(*g[::-1])])for _ in[0]*4][3]

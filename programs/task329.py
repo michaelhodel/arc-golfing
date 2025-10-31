@@ -1,0 +1,1 @@
+p=lambda g:[(x:=[0]*(y:=len(r)//2))+[r[y]]+x for r in g]

@@ -1,0 +1,1 @@
+p=lambda g,n=enumerate:[[(e/5*(1+((I:=sum(e>0 for R in g[max(0,i-1):i+2]for e in R[max(0,j-1):j+2]))>6)+3*(I==6)))for j,e in n(r)]for i,r in n(g)]

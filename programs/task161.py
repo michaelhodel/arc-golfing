@@ -1,0 +1,1 @@
+def p(g):s=sum(g,[]);c=min(s,key=s.count);f=lambda x:[[c*(c in(r[0],e))for e in r]for r in zip(*x)];return f(f(g))

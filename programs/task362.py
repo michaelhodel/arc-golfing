@@ -1,0 +1,1 @@
+def p(g):n=sum(g,[]).count(5);return[[e*(e!=5)for e in r[n:]+n*r[9:]]for r in[g[0]]*n+g[:-n]]

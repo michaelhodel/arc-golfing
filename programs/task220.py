@@ -1,0 +1,1 @@
+p=lambda g,n=enumerate:[[e+{3:6,8:4,2:1,0:0}[max(sum([r[max(0,j-1):j+2]for r in g[max(0,i-1):i+2]],[]))]*(e<1)for j,e in n(r)]for i,r in n(g)]

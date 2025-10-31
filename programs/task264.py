@@ -1,0 +1,1 @@
+def p(g):a,b,c,d,e,f,h,i,j=sorted([e for e in[[r[j:j+3]for r in g[i:i+3]]for i in range(len(g)-2)for j in range(len(g[0])-2)]if min(sum(e,[]))],key=lambda x:[*map((5).__eq__,sum(x,[]))]);return[sum(z,[])for z in zip(b+c+f,a+j+h,d+e+i)] 

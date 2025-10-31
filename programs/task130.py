@@ -1,0 +1,1 @@
+p=lambda g:[[max({*g[i][j:j+3]}-{5})for j in(0,3,6)]for i in(0,3,6)]

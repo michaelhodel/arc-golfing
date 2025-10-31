@@ -1,0 +1,1 @@
+p=lambda g,R=range(29):next([[max(r[x]for r in g[y%Y::Y])or g[y][x+9]for x in R]for y in R]for Y in R[4:]if all(3>len({*c,0})for i in R for c in zip(*g[i::Y])))

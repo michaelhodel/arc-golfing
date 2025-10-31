@@ -1,0 +1,1 @@
+p=lambda g:[(r[:3-all(r[:2]==r[2:4]for r in g)]*10)[:len(r)*2]for r in g]

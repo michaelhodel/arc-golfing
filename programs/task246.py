@@ -1,0 +1,1 @@
+def p(g):(a,b),(c,d)=[divmod(sum(g,[]).index(c),len(g[0]))for c in(2,3)];n=enumerate;return[[[e,8][((i==a)*(b-j)*(d-j)<0)|((j==d)*(a-i)*(c-i)<0)|((i,j)==(a,d))]for j,e in n(r)]for i,r in n(g)]

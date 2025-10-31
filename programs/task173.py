@@ -1,0 +1,1 @@
+def p(g):R=range;N=R(9);H=R(len(g)-2);W=R(len(g[0])-2);[((F:=[g[x+i//3][y+i%3]for i in N])==F[::-1])*F[4]*any(F[:4])*(F[4]==g[R+1][C+1]or sum(g[R+i//3][C+i%3]==F[i]for i in N)>7)and exec('for i in N:g[R+i//3][C+i%3]=F[i]')for R in H for x in H for C in W for y in W];return g

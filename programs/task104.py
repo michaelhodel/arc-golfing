@@ -1,0 +1,1 @@
+p=lambda g,n=range(9):[(k:=[(h:=[[3*(i<4>j or 8>i>3<j<8)for j in n]for i in n]),[r[::-1]for r in h]][g[1][0]<1]),k[::-1]][1>g[0][0]|g[0][2]]

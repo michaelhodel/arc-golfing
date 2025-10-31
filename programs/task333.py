@@ -1,0 +1,1 @@
+p=lambda g:[(g:=[[r,(R:=r+[3])[:(J:=(k:=R.index)(c:=max(R[:(I:=k(3))])))]+[c]*(I-J)+R[I:-1]][3 in r and{*R[:I]}!={0,3}]for*r,in zip(*g[::-1])])for _ in[0]*4][-1]

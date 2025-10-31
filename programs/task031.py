@@ -1,0 +1,1 @@
+p=lambda g,f=filter:[*f(max,zip(*f(max,zip(*g))))]

@@ -1,0 +1,1 @@
+def p(g):i,j=divmod([*map(bool,sum(g,[]))].index(1),len(g[0]));a=g[i][j];b=g[i+2][j+2];F=lambda x,D:[[r,[*map({b:a,0:b,a:a}.get,r)]][r.count(b)>D-4]for r in x];Z=zip;return[[[b*(b in(x,y)),a][a in(x,y)]for x,y in Z(*z)]for z in Z(F(g,g[i][j:].index(0)),Z(*(F(Z(*g),[g[a][j]for a in range(i,len(g))].index(0)))))]

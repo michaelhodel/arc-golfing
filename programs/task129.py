@@ -1,0 +1,1 @@
+p=lambda g:[[max((a:=sum(g,[])),key=a.count)]*3]*3

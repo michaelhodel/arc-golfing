@@ -1,0 +1,1 @@
+p=lambda g,n=enumerate:[[e+[i>(a:=[*map(max,g)].index(2)),3][i<a]*(i+j<a+g[a].index(0))for j,e in n(r)]for i,r in n(g)]

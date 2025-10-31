@@ -1,0 +1,1 @@
+p=lambda g,R=range(30):(f:=lambda g:[[min(g[i][j],g[j][i],g[i][[j,31-j][1<j]])for j in R]for i in R])(f(f(g)))

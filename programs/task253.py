@@ -1,0 +1,1 @@
+def p(g):s=sum(g,[]);f=s.index;c,d,b,a=sorted({*s}-{0},key=lambda c:[c==s[f(c)+x]for x in(1,13,12)]);return[[a,a,b,b],[a,0,0,b],[c,0,0,d],[c,c,d,d]]

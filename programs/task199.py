@@ -1,0 +1,1 @@
+def p(g):x=sum(g,[]);d=len(g[0]);i,j=divmod(x.index(max(x)),d);return[[4*(1-(b-j)%2)for b in range(d)]]*(i+1)+g[i:-1]

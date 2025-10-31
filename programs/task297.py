@@ -1,0 +1,1 @@
+p=lambda g:g[:2]+[[e]*len(g[0])for e in g[0]*9][:len(g)-2]

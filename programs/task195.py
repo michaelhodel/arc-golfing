@@ -1,0 +1,1 @@
+p=lambda g,n=range(9),f=filter:[[(g:=[*f(max,zip(*f(max,zip(*g))))])[i%3*3][j%3*3]/5*g[i//3*3][j//3*3]for j in n]for i in n]

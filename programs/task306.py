@@ -1,0 +1,1 @@
+p=lambda g,n=enumerate:[[max(max(a[j%10::10]for a in g[i%10::10]))for j,e in n(r)]for i,r in n(g)]

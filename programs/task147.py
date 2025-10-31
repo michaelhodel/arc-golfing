@@ -1,0 +1,1 @@
+p=lambda g,n=enumerate:[[e+5*(3 in[g[i+x][j+y]for x,y in((0,1),(1,0),(-1,0),(0,-1))if len(g)>i+x>-1<j+y<len(g[0])]*e)for j,e in n(r)]for i,r in n(g)]

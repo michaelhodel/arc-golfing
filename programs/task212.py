@@ -1,0 +1,1 @@
+p=lambda g,f=lambda X:[(m:=max(X))*[(I:=X.index(m))>=j,I<=j][m>1]for j in range(len(X))]:[*zip(*map(lambda r:f(r[:(i:=r.index(5))])+[5]+f(r[:i:-1])[::-1],zip(*g)))]

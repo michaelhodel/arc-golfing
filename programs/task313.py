@@ -1,0 +1,1 @@
+def p(g):N=range(len(g));return[[g[i%2][j%(2+(g[0][:3]==g[0][3:6]))+1]for j in N]for i in N]

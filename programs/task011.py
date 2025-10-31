@@ -1,0 +1,1 @@
+p=lambda g,R=range(11):[[[[x for i in[0,4,8]for j in[0,4,8]if(1-('8'in str(x:=[r[j:j+3]for r in g[i:i+3]])))][0][i//4][j//4],5][bool({i,j}&{3,7})]for j in R]for i in R]

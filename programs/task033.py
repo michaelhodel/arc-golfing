@@ -1,0 +1,1 @@
+p=lambda g,n=enumerate:[[[A[5],B][B==g[i%6][j%6]]for j,B in n(A)]for i,A in n(g)]

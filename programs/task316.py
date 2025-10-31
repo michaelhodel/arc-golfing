@@ -1,0 +1,1 @@
+p=lambda g:[(a:=[*filter(int,map(max,zip(*g)))]+[0]*9)[:3],a[5:2:-1],a[6:9]]

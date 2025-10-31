@@ -1,0 +1,1 @@
+p=lambda g,f=lambda x:[r[1:-1]for r in eval(str([[0,*r,0]for r in zip(*x)]).replace(f'0, {max(sum(x,[]))}, 0','0,0,0'))]:f(f(f(f(g))))

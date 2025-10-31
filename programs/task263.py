@@ -1,0 +1,1 @@
+p=lambda g,R=range(0,15,3):(s:=[[r[j:j+3]for r in g[i:i+3]]for i in R for j in R])[(t:=[[*map(bool,sum(x,[]))]for x in s]).index(min(t,key=t.count))]

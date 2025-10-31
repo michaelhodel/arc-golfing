@@ -1,0 +1,1 @@
+p=lambda g:[[(b:=sorted({*(a:=sum(g,[]))},key=a.count))[len(b)-b.index(e)-1]for e in r]for r in g]

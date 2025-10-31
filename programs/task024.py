@@ -1,0 +1,1 @@
+p=lambda g:[(g:=[*zip(*[[[e,[2,T:=max(r)][i]][[(2 in r)*(e<1),T%2][i]]for e in r]for r in g])])for i in(1,0)][1]
