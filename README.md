@@ -49,7 +49,7 @@ The space character is oftentimes not needed, such as after commas or around ope
 # instead of
 y = 3 * x
 
-#do
+# do
 y=3*x
 ```
 
@@ -195,7 +195,7 @@ As opposed to defining a function using the def keyword, which oftentimes needs 
 
 
 ```python
-# insetad of
+# instead of
 def f(x): return x * 2
 
 # do
