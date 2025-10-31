@@ -1,2 +1,2 @@
 # arc-golfing
-Solutions to ARC Tasks for the Google Code Golf Championship
+Golfed Python programs to the training tasks of the [Abstraction and Reasoning Corpus](https://github.com/fchollet/ARC-AGI) for the [NeurIPS 2025 - Google Code Golf Championship](https://www.kaggle.com/competitions/google-code-golf-2025). Disclaimer: Not all programs are written by me, some are taken from the [notebooks on Kaggle ](https://www.kaggle.com/competitions/google-code-golf-2025/code).
